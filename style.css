@@ -1,0 +1,165 @@
+
+.nav-gard .nav-item .nav-link{
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 100px;
+}
+.nav-gard .nav-item .nav-link.activate{
+    color: red;
+}
+
+
+.nav-gard .nav-item .nav-link:hover{
+   color: #003353; 
+    
+}
+.home-img img{
+    transition: 0.4s ease;
+}
+.img-hvr:hover{
+    transform: scale(1.04);
+    border: 1px solid  rgba(136, 145, 155, 0.3);
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+.fg{
+    font-size: 2rem;
+    color: #000080;
+}
+.display{
+    font-size: 40px;
+    color: white;
+}
+.name{
+    font-size: 2.5rem;
+    color: #6c63ff;
+}
+.about{
+    margin-top: 7rem;
+}
+.header-1{
+    color: #000080;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.fw{
+    font-weight: 700;
+}
+.row .col-lg-12 .Download {
+    
+    background-color: rgba(0, 1, 2, 0.7);
+    color: white;
+}
+.row .col-lg-12 .Download:hover{
+    background-color: #901;
+    color: white;
+    transform: scale(1.03);
+}
+
+.facts{
+    text-transform: uppercase;
+    text-align: center;
+}
+.facts .coding{
+    background-color: transparent;
+    color: #6c63ff;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 1, 2, 0.1);
+    padding: 6px 6px;
+    transition: 0.6s ease;
+    cursor: pointer;
+    
+}
+.facts .coding:hover{
+    background-color: #003353;
+    color: #ffff;
+}
+.progress .progress-color{
+    background-color: blue;
+}
+.progress-text{
+    animation: animate();
+}
+.color-headers{
+    color: #34ace0;
+}
+.social-lnks a i{
+    color: red;
+}
+.social-lnks a i:hover{
+    color: #34ace0;
+}
+.top{
+    margin-top: 5rem;
+}
+.service .service-border{
+    border: 1px solid rgb(94, 92, 92);
+    border-radius: 30px;
+    transition: 0.9s ease ;
+}
+.service-border:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+   
+}
+
+.extra-style{
+    margin-bottom: 5rem;
+}
+.column{
+    margin-bottom: 4rem;
+}
+.card .card-title{
+    font-weight: 700;
+    color: #6c63ff;
+}
+.card .link{
+    background-color:white;
+    display: inline;
+}
+.btn{
+    width: 30%;
+}
+.btn:hover{
+    transition: 0.8s ease;
+    background-color: black;
+}
+#free{
+    color: #6c63ff;
+    animation: animate;
+    animation-delay: 3ss;
+    animation-iteration-count: infinite;
+}
+
+
+.Hire{
+    background-color: transparent
+    ;
+    border-radius: 50px;
+    padding: 5px 10px 5px 10px;
+    box-shadow: 1px 2px 2px 2px rgba(0,0,0,0.6);
+    text-decoration: none;
+    color: #003353;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.3s ease;
+    font-weight: 600;
+}
+.Hire:hover{
+    background-color: #6c63ff;
+    color: white;
+    text-decoration: none;
+
+}
+#contact{
+    margin-top: 4rem ;
+}
+#container .col2{
+    width: 900px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+
+}
